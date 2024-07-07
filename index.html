@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="Cards">
+        <div class="nav">
+            <div class="navbtn1">
+                <input type="text" placeholder="Enter City Name" class="searchbtn">
+            </div>
+            <div class="navbtn2">
+                <button class="subBtn"><i class="fa-solid fa-magnifying-glass searchGlass"></i></button>
+            </div>
+        </div>
+        <div class="main">
+            <img src="./resources/clear.png" alt="Weather Icon" class="weather-icon">
+            <h2 class="temp">20&#176;C</h2>
+
+            <h1 class="mainh1 cityname">Cloudy</h1>
+        </div>
+        <div class="footer">
+            <div class="left">
+                <img src="./resources/humidity.png" alt="Humidity Icon" class="wicon">
+                <p class="humidity">50%</p>
+                <h4>Humidity</h4>
+            </div>
+            <div class="left right">
+                <img src="./resources/wind.png" alt="Wind Icon">
+                <p id="wind">5.66 km/h</p>
+                <h4>Wind Speed</h4>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
